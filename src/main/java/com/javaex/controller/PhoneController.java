@@ -144,7 +144,7 @@ public class PhoneController {
 	
 	// 그림,코드
 
-	/*************************************************************************/
+	/*********************************Test****************************************/
 	@RequestMapping(value = "/board/read/{no}", method = { RequestMethod.GET, RequestMethod.POST })
 	public String read(@PathVariable("no") int boardNo) {
 		System.out.println("[PhoneController.read]");
